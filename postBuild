@@ -1,4 +1,4 @@
 #!/bin/bash
 
 curl -L -o linux.zip https://github.com/MODFLOW-USGS/executables/releases/download/2.0/linux.zip?raw=true
-unzip linux.tar
+unzip linux.zip
