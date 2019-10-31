@@ -4,4 +4,4 @@ curl -L -o linux.zip https://github.com/MODFLOW-USGS/executables/releases/downlo
 mkdir modflow_binaries
 unzip linux.zip -d modflow_binaries
 rm linux.zip
-export PATH=/home/jovyan/modflow_binaries:$PATH
+export PATH=modflow_binaries:$PATH
