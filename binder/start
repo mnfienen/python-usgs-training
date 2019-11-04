@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export PATH=/home/jovyan/modflow_binaries/:$PATH
+export PATH=/home/jovyan/binaries/:$PATH
 
 exec "$@"
