@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export PATH=modflow_binaries/:$PATH
+
+exec "$@"
