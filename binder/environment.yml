@@ -1,0 +1,12 @@
+  
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - xarray
+  - requests
+  - pandas
+  - pillow
+  - pip:
+    - flopy
