@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export PATH=/home/jovyan/binder/binaries/:$PATH
+export PATH=/home/jovyan/binaries/:$PATH
 
 exec "$@"
