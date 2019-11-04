@@ -8,5 +8,6 @@ dependencies:
   - requests
   - pandas
   - pillow
+  - geopandas
   - pip:
     - flopy
