@@ -7,7 +7,7 @@ dependencies:
   - xarray
   - requests
   - pandas
-  - pillow
   - geopandas
+  - scipy
   - pip:
     - flopy
