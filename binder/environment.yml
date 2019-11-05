@@ -1,4 +1,4 @@
-  
+
 channels:
   - conda-forge
 dependencies:
@@ -12,3 +12,4 @@ dependencies:
   - scipy
   - pip:
     - flopy
+    - HydroFunctions
