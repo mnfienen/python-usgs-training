@@ -1,9 +1,5 @@
 #!/bin/bash
 
-sudo add-apt-repository universe
-sudo apt update
-sudo apt install ffmpeg
-
 curl -L -o linux.zip https://github.com/MODFLOW-USGS/executables/releases/download/2.0/linux.zip?raw=true
 mkdir binaries
 unzip linux.zip -d binaries
