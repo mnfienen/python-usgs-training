@@ -1,4 +1,4 @@
-
+name: pyclass
 channels:
   - conda-forge
 dependencies:
@@ -8,8 +8,15 @@ dependencies:
   - requests
   - pandas
   - xlrd
+  - gdal
   - geopandas
+  - rtree
+  - descartes
   - scipy
+  - pyproj>=2.0
+  - rasterio>=1.0
+  - rasterstats
+  - pyshp
+  - pip
   - pip:
     - flopy
-    - HydroFunctions
