@@ -18,6 +18,10 @@ dependencies:
   - rasterstats
   - pyshp
   - hydrofunctions
+  - jupyter 
+  - notebook
+  - jupyterlab
+  - netcdf4
   - pip
   - pip:
     - flopy
