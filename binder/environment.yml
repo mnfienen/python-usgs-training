@@ -21,7 +21,9 @@ dependencies:
   - jupyter 
   - notebook
   - jupyterlab
+  - ipykernel
   - netcdf4
+  - pytest
   - pip
   - pip:
     - flopy
