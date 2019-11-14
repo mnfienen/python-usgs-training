@@ -35,11 +35,12 @@ def testdir(request):
 def test_notebook(notebook, testdir):
     # run autotest on each notebook
     path, fname = os.path.split(notebook)
-    cmd = 'jupyter ' + 'nbconvert ' + \
-          '--ExecutePreprocessor.timeout=600 ' + \
-          '--to ' + 'notebook ' + \
-          '--execute ' + '{} '.format(notebook) + \
-          '--output-dir ' + '{} '.format(testdir) + \
-          '--output ' + '{}'.format(fname)
+    cmd = ('jupyter ' + 'nbconvert '
+           '--ExecutePreprocessor.timeout=600 '
+           '--ExecutePreprocessor.kernel_name=python3 '
+           '--to ' + 'notebook '
+           '--execute ' + '{} '.format(notebook) +
+           '--output-dir ' + '{} '.format(testdir) +
+           '--output ' + '{}'.format(fname))
     ival = os.system(cmd)
     assert ival == 0, 'could not run {}'.format(fname)
