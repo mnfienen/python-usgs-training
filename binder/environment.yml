@@ -26,5 +26,5 @@ dependencies:
   - pytest
   - pip
   - pip:
-    -  https://github.com/modflowpy/flopy.git
+    -  flopy
 
