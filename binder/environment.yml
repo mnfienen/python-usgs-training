@@ -26,5 +26,5 @@ dependencies:
   - pytest
   - pip
   - pip:
-    -  flopy=3.2.13
+    -  flopy
 
