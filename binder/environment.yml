@@ -26,5 +26,6 @@ dependencies:
   - pytest
   - pip
   - pip:
-    -  flopy
+    - flopy
+    - modflow-export
 
