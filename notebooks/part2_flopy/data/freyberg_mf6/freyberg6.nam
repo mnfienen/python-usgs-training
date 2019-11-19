@@ -1,0 +1,15 @@
+BEGIN Options
+  LIST       freyberg6.lst
+END Options
+
+BEGIN Packages
+  DIS6       freyberg6.dis
+  IC6        freyberg6.ic
+  NPF6       freyberg6.npf
+  OC6        freyberg6.oc
+  WEL6       freyberg6.wel 'basewell'
+  RIV6       freyberg6.riv
+  RCH6       freyberg6.rch
+  CHD6       freyberg6.chd   
+END Packages
+

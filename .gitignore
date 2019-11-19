@@ -106,4 +106,9 @@ venv.bak/
 
 # repo specific files
 *DS_Store
+*.synctex.gz
+*.aux
 thiem_functions.py
+
+notebooks/part2_flopy/work/
+.idea/
