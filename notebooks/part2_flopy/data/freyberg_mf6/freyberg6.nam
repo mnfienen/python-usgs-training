@@ -1,5 +1,6 @@
 BEGIN Options
   LIST       freyberg6.lst
+  SAVE_FLOWS
 END Options
 
 BEGIN Packages
@@ -10,6 +11,6 @@ BEGIN Packages
   WEL6       freyberg6.wel 'basewell'
   RIV6       freyberg6.riv
   RCH6       freyberg6.rch
-  CHD6       freyberg6.chd   
+  CHD6       freyberg6.chd
 END Packages
 

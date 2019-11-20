@@ -3,8 +3,6 @@
 BEGIN Options
   AUXILIARY IFACE
   PRINT_INPUT
-  PRINT_FLOWS
-  SAVE_FLOWS
 END Options
 
 BEGIN Dimensions
