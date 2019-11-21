@@ -112,3 +112,4 @@ thiem_functions.py
 
 notebooks/part2_flopy/work/
 .idea/
+*.chk
