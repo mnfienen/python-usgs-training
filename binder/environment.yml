@@ -25,9 +25,10 @@ dependencies:
   - netcdf4
   - pytest
   - pip
+  - imageio
   - openpyxl
   - pip:
     - flopy
     - modflow-export
     - julian
-
+    - imageio_ffmpeg
